@@ -27,5 +27,5 @@ var
   };
 
 module.exports = {
-  "start": start
+  'start': start
 };
