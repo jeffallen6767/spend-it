@@ -1,0 +1,67 @@
+
+html,
+body,
+div#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #6DBDD6;
+  color: #404040;
+}
+
+.red-bak {
+  background-color: #B71427;
+  color: #404040;
+}
+
+.yellow-bak {
+  background-color: #FFE658;
+  color: #404040;
+}
+
+.blue-bak {
+  background-color: #6DBDD6;
+  color: #404040;
+}
+
+.green-bak {
+  background-color: #A2AB58;
+  color: #404040;
+}
+
+.hidden {
+	display: none;
+}
+
+.loading {
+  width: 100px;
+  margin: 200px auto 0 auto;
+  font-size: 2em;
+}
+
+.node_person {
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  background-color: #f9f9f9;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.node_mouseover {
+  font-weight: bold;
+}
+
+.gender_male, a.gender_male:hover {
+  color: blue;
+}
+
+.gender_female, a.gender_female:hover {
+  color: pink;
+}

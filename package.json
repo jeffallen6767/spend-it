@@ -1,0 +1,16 @@
+{
+  "name": "spend-it",
+  "version": "1.0.0",
+  "description": "Where did all the money go?",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env LOG_LEVEL=debug node index",
+    "test": "cross-env LOG_LEVEL=debug node test"
+  },
+  "author": "Jeffrey D. Allen",
+  "license": "none",
+  "dependencies": {
+    "cross-env": "^3.1.4",
+    "express": "^4.14.0"
+  }
+}
